@@ -1,0 +1,52 @@
+{
+  "name": "zy-testtt",
+  "version": "1.9.6",
+  "description": "自己用来测试",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config ./webpackconfig/webpack.common.js --env production",
+    "serve": "webpack serve --config ./webpackconfig/webpack.common.js --env development"
+  },
+  "author": "zhangyue44",
+  "repository": {
+    "type": "git",
+    "url": "test"
+  },
+  "homepage": "test",
+  "keywords": [
+    "vue",
+    "test"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.14.8",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.15.2",
+    "regenerator-runtime": "^0.13.9",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0",
+    "@babel/preset-env": "^7.14.8",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "less": "^4.1.1",
+    "less-loader": "^10.0.1",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
+    "postcss-loader": "^6.1.1",
+    "postcss-preset-env": "^6.7.0",
+    "style-loader": "^3.2.1",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.14",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.8.0"
+  }
+}
