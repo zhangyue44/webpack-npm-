@@ -1,8 +1,8 @@
 {
   "name": "zy-testtt",
-  "version": "1.9.8",
+  "version": "1.9.9",
   "description": "自己用来测试",
-  "main": "index.js",
+  "main": "build/zy.js",
   "directories": {
     "lib": "lib"
   },
@@ -14,9 +14,9 @@
   "author": "zhangyue44",
   "repository": {
     "type": "git",
-    "url": "test"
+    "url": "https://github.com/zhangyue44/webpack-npm-"
   },
-  "homepage": "test",
+  "homepage": "https://github.com/zhangyue44/webpack-npm-",
   "keywords": [
     "vue",
     "test"
